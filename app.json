@@ -1,20 +1,20 @@
 {
-  "name": "Slack Invite Automation",
-  "description": "A tiny web application to invite a user into your slack team.",
+  "name": "Signup for Burning Fleet",
+  "description": "Automated invites to the Burning Lobby for Plunder Pirates players.",
   "repository": "https://github.com/outsideris/slack-invite-automation",
   "keywords": ["node", "slack", "invite"],
   "env": {
     "COMMUNITY_NAME": {
       "description": "Your team name",
-      "value": "YOUR TEAM NAME"
+      "value": "Burning Fleet"
     },
     "SLACK_URL": {
       "description": "Your slack url(ex: socketio.slack.com)",
-      "value": "YOUR-TEAM.slack.com"
+      "value": "burningfleet.slack.com"
     },
     "SLACK_TOKEN": {
       "description": "access token of slack, You can generate it in https://api.slack.com/web#auth",
-      "value": ""
+      "value": "xoxp-19317809665-19314500037-46114807958-67b345c57c"
     },
     "INVITE_TOKEN": {
       "description": "Shared invite token used to get access. Leave blank if you don't want users to have to provide a token.",
