@@ -41,7 +41,12 @@ float: left;
 
 h1{
 font-family: 'Open Sans', sans-serif;
-color: #0000FF;
+color: #000000;
+text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 text-align: center;
 font-size: 70px;
 font-weight: 300;
